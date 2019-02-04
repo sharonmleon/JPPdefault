@@ -19,17 +19,32 @@ body {
 
 a:link {
     text-decoration: none;
-    color: #000;
+    color: #8B0000;
 }
 
 a:visited {
-    color: #000;
+    color: #8B0000;
 }
 
 a:active,
 a:hover {
     color: $bold;
 }
+
+a [rel="footnote"] {
+   border-bottom: none;
+   background-color: #fff9c7;
+   line-height: 125%; 
+}
+
+a[rel="footnote"]:before {
+    content: "{";
+}
+
+a[rel="footnote"]:after {
+    content: "}";
+}
+
 
 h1 {
     font-size: 2 * $base-font-size;
@@ -55,6 +70,15 @@ img {
     height: auto;
 }
 
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;  
+}
+
+blockquote p {
+  display: inline;
+}
 /* @group ----- Forms ----- */
 
 input,
