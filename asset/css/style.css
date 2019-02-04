@@ -39,7 +39,7 @@ a[rel="footnote"]:before {
 
 a[rel="footnote"]:after {
     content: "}";
-
+}
   
   h1 {
     font-size: 40px;
@@ -69,7 +69,7 @@ a[rel="footnote"]:after {
 
 blockquote p {
   display: inline;
-
+}
   
   input, textarea, button, .button, select {
     font-family: "Open Sans", sans-serif;
